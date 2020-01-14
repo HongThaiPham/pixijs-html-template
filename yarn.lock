@@ -793,6 +793,17 @@
     "@pixi/settings" "^5.2.0"
     "@pixi/utils" "^5.2.0"
 
+"@pixi/text@^5.2.0":
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/@pixi/text/-/text-5.2.0.tgz#9b8db4532d353be617f7c60b461214ba1aaf9979"
+  integrity sha512-enEq/rJYXVobyGeTXCBTbRMlnKc7am+/WicymRt1bT7ia8L8A00xgOdEbfg6OeP2jLcyBVnopFhgHFe8jcp07Q==
+  dependencies:
+    "@pixi/core" "^5.2.0"
+    "@pixi/math" "^5.2.0"
+    "@pixi/settings" "^5.2.0"
+    "@pixi/sprite" "^5.2.0"
+    "@pixi/utils" "^5.2.0"
+
 "@pixi/ticker@^5.2.0":
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/@pixi/ticker/-/ticker-5.2.0.tgz#6e0dae872d0c7dc5458067c10fd6743b0ce15960"

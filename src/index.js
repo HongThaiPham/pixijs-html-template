@@ -14,4 +14,16 @@ Application.registerPlugin(AppLoaderPlugin);
 
 import App from "./App";
 
-new App();
+window.onload = async () => {
+  try {
+    await FBInstant.initializeAsync();
+
+    const app = new App();
+    await app.init(FBInstant.setLoadingProgress);
+    await FBInstant.startGameAsync();
+
+    app.draw();
+  } catch (error) {
+    console.log(error);
+  }
+};

@@ -24,6 +24,7 @@
     "@pixi/loaders": "^5.2.0",
     "@pixi/sprite": "^5.2.0",
     "@pixi/sprite-tiling": "^5.2.0",
+    "@pixi/text": "^5.2.0",
     "@pixi/ticker": "^5.2.0",
     "@pixi/utils": "^5.2.0"
   }
